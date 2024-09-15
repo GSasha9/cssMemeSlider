@@ -30,7 +30,7 @@ body{
 
 .slider__window-img{
     width: 100%;
-    border-radius: 20px;
+    border-radius: 1.2vw;
     transition: transform 1s ease;
 }
 
@@ -48,7 +48,7 @@ body{
     margin: 0;
     font-size: 1.6rem;
     width: 100%;
-    transform: translateX(0px);
+    transform: translateX(0vw);
     opacity: 0;
     transition: opacity 1s ease;
 }
@@ -56,7 +56,7 @@ body{
 .slider__radio-buttons{
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 0.5vw;
     align-items: center;
 }
 
@@ -75,7 +75,7 @@ label{
 
 label:hover > .slider__radio-button-item{
     background-color: rgb(98, 128, 102);
-    transform: translateY(2px);
+    transform: translateY(0.2vw);
 }
 
 label:active > .slider__radio-button-item{
@@ -119,63 +119,63 @@ input[id='radio5']:checked ~ .slider__attributes > .slider__radio-buttons > labe
 
 input[id='radio1']:checked ~ .slider__attributes > .slider__radio-buttons > label[for='radio1']:hover > .slider__radio-button-item{
     box-shadow: 0px 0px 0.7vw 0.5vw rgba(238, 255, 0, 0.7);
-    transform: translateY(0px);
+    transform: translateY(0vw);
 }
 
 input[id='radio2']:checked ~ .slider__attributes > .slider__radio-buttons > label[for='radio2']:hover > .slider__radio-button-item{
     box-shadow: 0px 0px 0.7vw 0.5vw rgba(238, 255, 0, 0.7);
-    transform: translateY(0px);
+    transform: translateY(0vw);
 }
 
 input[id='radio3']:checked ~ .slider__attributes > .slider__radio-buttons > label[for='radio3']:hover > .slider__radio-button-item{
     box-shadow: 0px 0px 0.7vw 0.5vw rgba(238, 255, 0, 0.7);
-    transform: translateY(0px);
+    transform: translateY(0vw);
 }
 
 input[id='radio4']:checked ~ .slider__attributes > .slider__radio-buttons > label[for='radio4']:hover > .slider__radio-button-item{
     box-shadow: 0px 0px 0.7vw 0.5vw rgba(238, 255, 0, 0.7);
-    transform: translateY(0px);
+    transform: translateY(0vw);
 }
 
 input[id='radio5']:checked ~ .slider__attributes > .slider__radio-buttons > label[for='radio5']:hover > .slider__radio-button-item{
     box-shadow: 0px 0px 0.7vw 0.5vw rgba(238, 255, 0, 0.7);
-    transform: translateY(0px);
+    transform: translateY(0vw);
 }
 
 
 input[id='radio1']:checked ~ .slider__attributes > .slider__radio-buttons > label[for='radio1']:active > .slider__radio-button-item{
     background-color: #fff;
     box-shadow: none;
-    transform: translateY(0px);
+    transform: translateY(0vw);
 }
 
 input[id='radio2']:checked ~ .slider__attributes > .slider__radio-buttons > label[for='radio2']:active > .slider__radio-button-item{
     background-color: #fff;
     box-shadow: none;
-    transform: translateY(0px);
+    transform: translateY(0vw);
 }
 
 input[id='radio3']:checked ~ .slider__attributes > .slider__radio-buttons > label[for='radio3']:active > .slider__radio-button-item{
     background-color: #fff;
     box-shadow: none;
-    transform: translateY(0px);
+    transform: translateY(0vw);
 }
 
 input[id='radio4']:checked ~ .slider__attributes > .slider__radio-buttons > label[for='radio4']:active > .slider__radio-button-item{
     background-color: #fff;
     box-shadow: none;
-    transform: translateY(0px);
+    transform: translateY(0vw);
 }
 
 input[id='radio5']:checked ~ .slider__attributes > .slider__radio-buttons > label[for='radio5']:active> .slider__radio-button-item{
     background-color: #fff;
     box-shadow: none;
-    transform: translateY(0px);
+    transform: translateY(0vw);
 }
 
 
 #radio1:checked ~ .slider__window > .slider__window-img {
-    transform: translateX(0px);
+    transform: translateX(0vw);
 }
 
 #radio2:checked ~ .slider__window > .slider__window-img {
@@ -196,7 +196,7 @@ input[id='radio5']:checked ~ .slider__attributes > .slider__radio-buttons > labe
 
 
 #radio1:checked ~ .slider__attributes > .slider__text > .slider__text-item {
-    transform: translateX(0px);
+    transform: translateX(0vw);
 }
 
 #radio2:checked ~ .slider__attributes > .slider__text > .slider__text-item {
